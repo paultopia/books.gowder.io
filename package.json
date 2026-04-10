@@ -25,6 +25,6 @@
   "scripts": {
       "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/main.css",
       "css-watch": "npm run css-build -- --watch",
-      "start": "npm run css-watch"
+      "start": "npm install && npm run css-watch"
 }
 }
